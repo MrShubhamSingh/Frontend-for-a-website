@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="C:\ClashOfClans\style.css">
+</head>
+<body>
+<img src="http://wallpapercave.com/wp/wc1808416.png" class="grow" alt="Smiley face" height="300" width="600" style = "position: absolute;  top:20px; left:400px";>
+<img src="http://img2.wikia.nocookie.net/__cb20131226143116/clashofclans/images/0/04/NewArcherArtTransparent.png" class="swingimage" alt="Smiley face" height=auto width=auto style = "position: absolute;  top:200px; left:325px";>
+
+<button onclick="document.getElementById('f4').style.display='block'" style="width:auto ;  float: left;
+    margin: 0px 10px 0 0;" class="button"><span>Home</span></button>
+	
+<button onclick="document.getElementById('id12').style.display='block'" style="width:auto ;  float: left;
+    margin: 0px 10px 0 0;" class="button"><span>Chat Zone</span></button>
+	
+<button onclick="document.getElementById('id11').style.display='block'" style="width:auto ;  float: left;
+    margin: 0px 10px 0 0;" class="button"><span>War Zone</span></button>
+	
+<button onclick="document.getElementById('id11').style.display='block'" style="width:auto ;  float: left;
+    margin: 0px 10px 0 0;" class="button"><span>Strategy</span></button>
+	
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto ;  float:right;
+    margin: 0px 10px 0 0;" class="button"><span>Login</span></button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="http://vignette4.wikia.nocookie.net/clashofclans/images/c/c6/Animated_Clash_of_Clans_Logo.gif/revision/latest?cb=20150225051801" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label><b style = "text-align : center">Username</b></label>
+      <input type="text"  name="uname" required >
+
+      <label><b style = "text-align : center">Password</b></label>
+      <input type="password"  name="psw" required>
+        
+      <button type="submit" class ="button"><span>Let's War</span></button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw"><a href="#">Forgot password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<audio autoplay="true" class ="ar" src="/Clash Of Clans Background Music Soundtrack (2).mp3" type="audio/mpeg">
+</body>
+</html>
